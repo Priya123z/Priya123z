@@ -1,61 +1,65 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0369a1,100:6d28d9&height=130&section=header" />
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0EA5E9&center=true&vCenter=true&width=620&lines=Hi+there%2C+I'm+Priya+Bhagoriya+%F0%9F%91%8B;QA+Automation+Engineer+%7C+SDET;Python+%C2%B7+Playwright+%C2%B7+AI+Testing;5%2B+years+shipping+quality+software" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=900&color=38BDF8&center=true&vCenter=true&width=640&height=46&lines=QA+Automation+Engineer+%7C+SDET;Python+%C2%B7+Playwright+%C2%B7+AI-assisted+Testing;5%2B+years+building+quality+at+scale" alt="Priya Bhagoriya" />
 </div>
 
 <br />
 
-I'm a QA Automation Engineer and SDET based in Mumbai, India. I've spent five years building test frameworks and quality strategies across retail, banking, and fintech — and I'm currently deep into modern Python testing: Playwright, AI-assisted test generation, and LLM evaluation.
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
 
-**What I'm working on right now:**
-- Cross-browser E2E framework with Python + Playwright ([playwright-python-framework](https://github.com/Priya123z/playwright-python-framework))
-- REST API test suite with JSON Schema validation ([api-test-pytest](https://github.com/Priya123z/api-test-pytest))
-- AI test-case generator using the Claude API + Streamlit ([ai-testcase-generator](https://github.com/Priya123z/ai-testcase-generator))
+## Priya Bhagoriya
 
----
+QA Automation Engineer at Deloitte, based in Mumbai. My day job is making sure Amplifon's retail operations don't break — 750+ test cases, extensive SQL validation, and a full suite of regression cycles. My side work is the interesting part.
 
-### Tech I work with
+I'm modernising from Selenium/Java to **Python + Playwright**, and building tooling that brings LLMs into the QA loop — test generation, structured output, LLM evaluation pipelines.
 
-**Test Automation**
+<br />
 
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat&logo=cucumber&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-FF6C37?style=flat)
+**Active repos**
 
-**Languages**
+[`playwright-python-framework`](https://github.com/Priya123z/playwright-python-framework) — POM · 27 tests · Chromium/Firefox/WebKit CI matrix · Allure
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+[`api-test-pytest`](https://github.com/Priya123z/api-test-pytest) — 33 REST API tests · JSON Schema validation on every response · pytest-html CI
 
-**CI/CD & Cloud**
+[`ai-testcase-generator`](https://github.com/Priya123z/ai-testcase-generator) — user story → Gherkin + Pytest via Claude API · Pydantic · Streamlit UI
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=google-cloud&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat&logo=azure-devops&logoColor=white)
+</td>
+<td width="45%" valign="top" align="center">
 
-**AI in Testing**
+<img src="https://github-readme-stats.vercel.app/api?username=Priya123z&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a78bfa&text_color=8b9ab0&count_private=true&rank_icon=github" width="100%" alt="GitHub Stats" />
 
-![Anthropic](https://img.shields.io/badge/Claude_API-CC785C?style=flat)
-![DeepEval](https://img.shields.io/badge/DeepEval-6C63FF?style=flat)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Priya123z&theme=react-dark&hide_border=true&area=true&area_color=0ea5e9&color=a78bfa&line=38bdf8&point=38bdf8&bg_color=0d1117&custom_title=Contribution+Activity" width="100%" alt="Activity Graph" />
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Pinned projects
+**Stack**
 
-| Repo | What it is |
-|------|------------|
-| [playwright-python-framework](https://github.com/Priya123z/playwright-python-framework) | 27-test POM framework — Chromium · Firefox · WebKit CI matrix |
-| [api-test-pytest](https://github.com/Priya123z/api-test-pytest) | 33 REST API tests with JSON Schema validation |
-| [ai-testcase-generator](https://github.com/Priya123z/ai-testcase-generator) | Claude API + Streamlit: user story → Gherkin + Pytest |
+![Python](https://img.shields.io/badge/Python-1d3557?style=flat-square&logo=python&logoColor=38bdf8)
+![Playwright](https://img.shields.io/badge/Playwright-1d3557?style=flat-square&logo=playwright&logoColor=38bdf8)
+![Pytest](https://img.shields.io/badge/Pytest-1d3557?style=flat-square&logo=pytest&logoColor=38bdf8)
+![Selenium](https://img.shields.io/badge/Selenium-1d3557?style=flat-square&logo=selenium&logoColor=38bdf8)
+![Java](https://img.shields.io/badge/Java-1d3557?style=flat-square&logo=openjdk&logoColor=38bdf8)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1d3557?style=flat-square&logo=github-actions&logoColor=38bdf8)
+![Postman](https://img.shields.io/badge/Postman-1d3557?style=flat-square&logo=postman&logoColor=38bdf8)
+![Docker](https://img.shields.io/badge/Docker-1d3557?style=flat-square&logo=docker&logoColor=38bdf8)
+![GCP](https://img.shields.io/badge/GCP-1d3557?style=flat-square&logo=google-cloud&logoColor=38bdf8)
+![Claude API](https://img.shields.io/badge/Claude_API-1d3557?style=flat-square&logoColor=38bdf8)
+![Streamlit](https://img.shields.io/badge/Streamlit-1d3557?style=flat-square&logo=streamlit&logoColor=38bdf8)
+![Pydantic](https://img.shields.io/badge/Pydantic-1d3557?style=flat-square&logo=pydantic&logoColor=38bdf8)
 
 ---
 
-### Connect
+[![Portfolio](https://img.shields.io/badge/Portfolio-priya123z.github.io-38bdf8?style=flat-square&logoColor=white)](https://priya123z.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-priya--bhagoriya-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/priya-bhagoriya)
+[![Email](https://img.shields.io/badge/Email-prbhagoriya20%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:prbhagoriya20@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/priya-bhagoriya)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0EA5E9?style=flat&logo=github&logoColor=white)](https://priya123z.github.io)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:prbhagoriya20@gmail.com)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:0369a1&height=90&section=footer" />
