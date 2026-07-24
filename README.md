@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=Python+%C2%B7+Playwright+%C2%B7+AI-assisted+Testing;5%2B+years+building+quality+at+scale;Selenium+%E2%86%92+Playwright+%E2%86%92+LLM+test+pipelines;QA+Engineer+%7C+SDET+%7C+Mumbai" alt="Priya Bhagoriya" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&height=60&lines=Python+%C2%B7+Playwright+%C2%B7+AI-augmented+Testing;6.6+years+building+quality+at+scale;Selenium+%E2%86%92+Playwright+%E2%86%92+LLM+test+pipelines;Senior+QA+Engineer+%7C+SDET+%7C+Mumbai" alt="Priya Bhagoriya" />
 
 <br /><br />
 
@@ -14,29 +14,33 @@
 
 ### About me
 
-I test software for a living. At Deloitte I'm responsible for the quality of Amplifon's retail platform — 750+ test cases across a system that processes thousands of orders, SQL validation deep into the data layer, and being the person who surfaces the critical bug before release. The work is methodical and demanding and I find it genuinely interesting.
+I test software for a living — 6.6 years of it, across healthcare, banking, wealth management and auto finance. At Deloitte I architect the Playwright + Python framework for Amplifon's enterprise platform: 750+ test cases, SQL and REST API validation deep into the data layer, and being the person who surfaces the critical bug before release. The work is methodical and demanding and I find it genuinely interesting.
 
-My technical stack is in transition. I spent four years building and maintaining Selenium/Java automation suites at LTIMindtree. I'm now rebuilding that skill set around **Python + Playwright** — not as a portfolio exercise but because the tooling is genuinely superior: no `WebDriverWait` boilerplate, first-class trace viewer for CI failures, single API across Chromium, Firefox, and WebKit, and parallel execution that actually works without flakiness tuning.
+My technical stack has moved forward. I spent four years building and maintaining Selenium/Java automation suites at LTIMindtree. I rebuilt that skill set around **Python + Playwright** — not as a portfolio exercise but because the tooling is genuinely superior: no `WebDriverWait` boilerplate, first-class trace viewer for CI failures, single API across Chromium, Firefox, and WebKit, and parallel execution that actually works without flakiness tuning.
 
-The third piece of the puzzle is **AI in testing**. Not "use ChatGPT to write tests" — I mean building structured pipelines where an LLM generates test case skeletons from user stories, with Pydantic enforcing output schema so the result is always parseable code, never raw prose. The goal isn't to replace test design judgment — it's to eliminate the 40 minutes of Gherkin boilerplate that precedes it.
+The piece I'm investing in now is **AI in testing**. Not "use ChatGPT to write tests" — I mean structured, schema-validated pipelines where an LLM finds real defects and drafts the missing tests, with human judgment kept firmly in the loop. My flagship project **[aiqa](https://github.com/Priya123z/AI-pipeline-report)** turns that into a drop-in CI/CD quality gate with a [live report](https://priya123z.github.io/AI-pipeline-report/).
 
-Previously at Google India (Test Analyst Lead, 100+ API tests across 20+ services) and building Selenium automation across UK banking and US auto finance at LTIMindtree.
+Previously at Google India (led a 3-person QA team, 50+ functional & API scenarios) and building Selenium automation across UK banking and US auto finance at LTIMindtree.
 
 ---
 
 ### Currently building
 
-**[playwright-python-framework](https://github.com/Priya123z/playwright-python-framework)** &nbsp; `Python` `Playwright` `Pytest` `Allure` `GitHub Actions`
+**⭐ [AI-pipeline-report](https://github.com/Priya123z/AI-pipeline-report)** &nbsp; `OpenRouter LLM` `Python` `Pydantic` `Pytest` `GitHub Actions` &nbsp; — &nbsp; [**live demo ↗**](https://priya123z.github.io/AI-pipeline-report/) · [**live report ↗**](https://priya123z.github.io/AI-pipeline-report/report/)
 
-Page Object Model framework testing the SauceDemo application. 27 tests across login, inventory, cart, and checkout flows. CI matrix runs on every push across Chromium, Firefox, and WebKit in parallel. The `ARCHITECTURE.md` explains the design choices — why POM over Screenplay, why Pytest fixtures over class-based test setup, why `fail-fast: false` in the CI matrix.
+`aiqa` — an AI QA Copilot for CI/CD. A drop-in pipeline that reviews code on every push with an LLM, surfaces real defects and reliability risks, generates the missing Gherkin + Pytest tests, and publishes a shareable HTML report with a weighted risk score and a pass/fail quality gate. Ships three ways — a `aiqa scan` CLI, a reusable GitHub Action, and an importable Python library. Every LLM response is validated through Pydantic before it reaches a report, and the 15-test suite runs green with **no API key** because the LLM client is fully mocked. Free to run on any OpenRouter model.
+
+**[orangehrm-playwright-python](https://github.com/Priya123z/orangehrm-playwright-python)** &nbsp; `Python` `Playwright` `Pytest` `POM · Factory · Singleton`
+
+Production-grade Playwright + Python framework: Browser Factory, Auth / Config / Credential Managers, a reusable `BasePage`, and a CSV/JSON/Excel data-driven layer. Storage-state authentication, trace/video artifacts, HTML reporting, and cross-browser CI. This is the framework pattern behind my enterprise work.
 
 **[api-test-pytest](https://github.com/Priya123z/api-test-pytest)** &nbsp; `Python` `Pytest` `Requests` `JSON Schema`
 
-33 REST API tests against the Reqres.in public API. The differentiator is JSON Schema validation on every `GET` response — when a backend team renames a field, a status-200 test still passes; a schema test doesn't. Includes response-time SLA assertions, environment-aware base URL config, and CI artifact upload of the HTML report.
+43 REST API tests with JSON Schema validation on every response — when a backend team renames a field, a status-200 test still passes; a schema test doesn't. Includes response-time SLA assertions, environment-aware base URL config, and CI artifact upload of the HTML report.
 
-**[ai-testcase-generator](https://github.com/Priya123z/ai-testcase-generator)** &nbsp; `Claude API` `Streamlit` `Pydantic`
+**[playwright-python-framework](https://github.com/Priya123z/playwright-python-framework)** &nbsp; `Python` `Playwright` `Pytest` `Allure`
 
-User story → Gherkin scenarios + Pytest skeletons via the Anthropic Claude API. Pydantic models (`TestSuite → GherkinScenario → GherkinStep`) validate the LLM output on every call — malformed JSON raises a `ValueError` rather than silently producing an unparseable result. Versioned system prompts in `prompts.py` mean strategy changes are a one-file diff. Unit tests mock the LLM client so CI passes with no API key.
+Page Object Model framework over SauceDemo. 27 tests across login, inventory, cart, and checkout; CI matrix runs on every push across Chromium, Firefox, and WebKit in parallel.
 
 ---
 
@@ -63,10 +67,11 @@ User story → Gherkin scenarios + Pytest skeletons via the Anthropic Claude API
 **AI in Testing**
 
 ![Claude API](https://img.shields.io/badge/Claude_API-0d1117?style=for-the-badge&logoColor=a78bfa)
-![Streamlit](https://img.shields.io/badge/Streamlit-0d1117?style=for-the-badge&logo=streamlit&logoColor=a78bfa)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-0d1117?style=for-the-badge&logoColor=a78bfa)
 ![Pydantic](https://img.shields.io/badge/Pydantic-0d1117?style=for-the-badge&logo=pydantic&logoColor=a78bfa)
-![Postman](https://img.shields.io/badge/Postman-0d1117?style=for-the-badge&logo=postman&logoColor=a78bfa)
-![DeepEval](https://img.shields.io/badge/DeepEval-0d1117?style=for-the-badge&logoColor=a78bfa)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0d1117?style=for-the-badge&logoColor=a78bfa)
+![RAG & Agents](https://img.shields.io/badge/RAG_%26_Agents-0d1117?style=for-the-badge&logoColor=a78bfa)
+![Playwright MCP](https://img.shields.io/badge/Playwright_MCP-0d1117?style=for-the-badge&logoColor=a78bfa)
 
 ---
 
@@ -74,9 +79,9 @@ User story → Gherkin scenarios + Pytest skeletons via the Anthropic Claude API
 
 | | |
 |---|---|
-| **Deloitte** — Consultant QA | Jul 2023 – Present · Mumbai |
-| Amplifon retail/inventory platform — 750+ test cases, SQL validation across inventory, contracts, payments. SIT/UAT/regression in Agile. | |
-| Google India (Test Analyst Lead) — led 3 engineers, 100+ API tests, 20+ REST services in Postman, 30% coverage increase. | |
+| **Deloitte** — Senior Consultant QA | Jul 2023 – Present · Mumbai |
+| Amplifon enterprise platform — 750+ test cases, SQL + REST API validation across inventory, contracts, payments; 200+ defects triaged. SIT/UAT/regression in Agile. | |
+| Google India (Vendor Management Portal) — led 3 engineers, 50+ functional & API scenarios, Google Apps Script ↔ GCP Cloud SQL sync, 30% coverage increase. | |
 | **LTIMindtree** — Senior Software Engineer QA | Nov 2019 – May 2023 · Mumbai |
 | Charles Stanley (UK banking) — 250+ Selenium/Java scripts at 70% coverage, Jenkins CI. | |
 | American Honda Finance (US) — 300+ test scripts in Azure DevOps, mentored 5 engineers, 4% bug detection improvement. | |
@@ -94,6 +99,8 @@ User story → Gherkin scenarios + Pytest skeletons via the Anthropic Claude API
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-priya123z.github.io-0ea5e9?style=for-the-badge)](https://priya123z.github.io)
+&nbsp;
+[![Résumé](https://img.shields.io/badge/Résumé-Download_PDF-f97316?style=for-the-badge&logo=readthedocs&logoColor=white)](https://priya123z.github.io/Priya_Bhagoriya_Resume.pdf)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/priya-bhagoriya)
 &nbsp;
