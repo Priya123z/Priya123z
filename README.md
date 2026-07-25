@@ -88,14 +88,6 @@ Page Object Model framework over SauceDemo. 27 tests across login, inventory, ca
 
 ---
 
-### Certifications
-
-![GCP](https://img.shields.io/badge/Google_Cloud_Certified_Digital_Leader-0d1117?style=for-the-badge&logo=google-cloud&logoColor=38bdf8)
-![Selenium](https://img.shields.io/badge/Selenium_WebDriver_with_Java-0d1117?style=for-the-badge&logo=selenium&logoColor=f97316)
-![UFT](https://img.shields.io/badge/HP_UFT_%2F_QTP_with_VBScript-0d1117?style=for-the-badge&logoColor=a78bfa)
-
----
-
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-priya123z.github.io-0ea5e9?style=for-the-badge)](https://priya123z.github.io)
