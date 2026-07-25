@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,40:7c3aed,100:ea580c&height=220&section=header&text=Priya%20Bhagoriya&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=40&desc=QA%20Automation%20Engineer%20%7C%20SDET%20%7C%20Mumbai&descSize=19&descAlign=50&descAlignY=62&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:059669,40:14b8a6,100:f59e0b&height=220&section=header&text=Priya%20Bhagoriya&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=40&desc=QA%20Automation%20Engineer%20%7C%20SDET%20%7C%20Mumbai&descSize=19&descAlign=50&descAlignY=62&animation=fadeIn" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&height=60&lines=Python+%C2%B7+Playwright+%C2%B7+AI-augmented+Testing;6.6+years+building+quality+at+scale;Selenium+%E2%86%92+Playwright+%E2%86%92+LLM+test+pipelines;Senior+QA+Engineer+%7C+SDET+%7C+Mumbai" alt="Priya Bhagoriya" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=10B981&center=true&vCenter=true&width=760&height=60&lines=Python+%C2%B7+Playwright+%C2%B7+AI-augmented+Testing;6.6+years+building+quality+at+scale;Selenium+%E2%86%92+Playwright+%E2%86%92+LLM+test+pipelines;Senior+QA+Engineer+%7C+SDET+%7C+Mumbai" alt="Priya Bhagoriya" />
 
 <br /><br />
 
@@ -107,5 +107,3 @@ Page Object Model framework over SauceDemo. 27 tests across login, inventory, ca
 [![Email](https://img.shields.io/badge/Email-prbhagoriya20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prbhagoriya20@gmail.com)
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ea580c,60:7c3aed,100:0284c7&height=110&section=footer" />
