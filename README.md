@@ -40,7 +40,7 @@ Reviews changed files with an LLM and reports defects, suggested tests, and repa
 
 The interesting part is not calling a model. It is that free tiers rate limit without warning, so it falls through Groq to OpenRouter to a cached response, budgets by token count because tokens per minute runs out before request count does, and refuses to report a passing gate when nothing could be reviewed — a provider outage used to look exactly like clean code.
 
-**[ai-testcase-generator](https://github.com/Priya123z/ai-testcase-generator)** &nbsp; `Groq` `Streamlit` `Pydantic`
+**[ai-testcase-generator](https://github.com/Priya123z/ai-testcase-generator)** &nbsp; `Groq` `Pydantic` `Pages` &nbsp;—&nbsp; [**try it live ↗**](https://priya123z.github.io/ai-testcase-generator/)
 
 Turns a written requirement into Gherkin scenarios and Pytest skeletons, validated through Pydantic so malformed model output fails loudly instead of producing broken tests. Tests split into contract tests that patch the network and run anywhere, and integration tests that assert properties which hold for any valid output rather than exact text — because the output is not deterministic.
 
