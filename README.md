@@ -98,7 +98,7 @@ Turns a written requirement into Gherkin scenarios and Pytest skeletons, validat
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-priya123z.github.io-0ea5e9?style=for-the-badge)](https://priya123z.github.io)
 &nbsp;
-[![Resume](https://img.shields.io/badge/Resume-read%20it-0a6e4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://priya123z.github.io/resume.html)
+[![Resume](https://img.shields.io/badge/Resume-read%20it-0a6e4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://priya123z.github.io/Priya_Bhagoriya_Resume.pdf)
 &nbsp;
 [![Resume DOCX](https://img.shields.io/badge/Resume-DOCX-2b579a?style=for-the-badge&logo=microsoftword&logoColor=white)](https://priya123z.github.io/Priya_Bhagoriya_Resume.docx)
 &nbsp;
